@@ -1,0 +1,43 @@
+=====HTTP - HyperText Transfer Protocol(Phương thức giao tiếp siêu văn bản)=====
+
+-HTTP là cách thức website truyền tải trên internet
+-HTTP là nền tảng giao tiếp dữ liệu cho World Wide Web
+-HTTP hoạt động như một giao thức yêu cầu(request)-phản hồi(feedback) trong mô hình client-server.
+-HTTP là giao thức cấp ứng dụng không trạng thái(Stateless protocol) và nó yêu cầu kết nối truyền tải mạng đáng tin
+cậy để trao đổi dữ liệu giữa máy khách và máy chủ.
+
+
+=====www - World Wide Web(Mạng toàn cầu)=====
+
+-WWW là một hệ thống thông tin cho phép chia sẻ nội dung qua internet
+-World Wide Web là một tập hợp toàn cầu các tài liệu và các tài nguyên khác , 
+được liên kết bởi các siêu liên kết và URI . Tài nguyên web được truy cập bằng HTTP hoặc HTTPS , 
+là các giao thức Internet cấp ứng dụng sử dụng các giao thức truyền tải của Internet
+
+=====Stateless protocol - Giao thức không trạng thái=====
+
+-Giao thức không trạng thái là giao thức truyền thông trong đó người nhận không được giữ lại trạng thái
+phiên từ các yêu cầu trước đó. Người gửi chuyển trạng thái phiên liên quan đến người nhận theo cách mà
+mọi yêu cầu có thể được hiểu một cách tách biệt, nghĩa là không cần tham chiếu đến trạng thái phiên từ
+các yêu cầu trước đó được người nhận giữ lại.
+-Ví dụ các giao thức không trạng thái bao gồm:TCP/IP/FTP/HTTP.
+
+-Ngược lại, giao thức trạng thái là giao thức truyền thông trong đó người nhận có thể giữ lại trạng thái 
+phiên từ các yêu cầu trước đó.
+
+=====IP - Internet Protocol=====
+
+-Giao thức Internet ( IP ) là giao thức truyền thông lớp mạng trong bộ giao thức Internet để chuyển tiếp
+các datagram qua ranh giới mạng. Chức năng định tuyến của nó cho phép kết nối mạng và về cơ bản là thiết
+lập Internet.
+-IP có nhiệm vụ phân phối các gói từ máy chủ nguồn đến máy chủ đích chỉ dựa trên địa chỉ IP trong tiêu 
+đề gói
+
+=====TCP - Transmission Control Protocol(giao thức điều khiển truyền dẫn)=====
+
+-Giao thức điều khiển truyền dẫn ( TCP ) là một trong những giao thức chính của bộ giao thức Internet. 
+Nó bắt nguồn từ việc triển khai mạng ban đầu, trong đó nó bổ sung cho Giao thức Internet (IP). Do đó,
+toàn bộ bộ phần mềm này thường được gọi là TCP/IP . TCP cung cấp khả năng phân phối đáng tin cậy, 
+có trật tự và được kiểm tra lỗi đối với luồng octet (byte) giữa các ứng dụng chạy trên máy chủ giao tiếp 
+qua mạng IP. Các ứng dụng internet chính như World Wide Web , email, quản trị từ xa và truyền tệp đều dựa
+ vào TCP, là một phần của lớp Vận chuyển của bộ TCP/IP. SSL/TLS thường chạy trên TCP.
